@@ -16,8 +16,8 @@ pipeline {
 
         stage("Deploy") {
             steps {
-                sh "sudo rm -rf /var/www/dist/shopping_website_kakinda"
-                sh "sudo cp -r ${WORKSPACE}/dist/ /var/www/dist/shopping_website_kakinda/"
+                sh "sudo rm -rf /var/www/angulartest.mmworkspace.com"
+                sh "sudo cp -r ${WORKSPACE}/dist/ /var/www/angulartest.mmworkspace.com/"
             }
         }
     }
