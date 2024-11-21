@@ -39,12 +39,6 @@ pipeline {
             }
         }
 
-        stage("Run Nginx") {
-            steps {
-                
-                bat "\"C:\\Program Files\\nginx-1.27.2\\nginx.exe\""
-            }
-        }
     }
 }
 
